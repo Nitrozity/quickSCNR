@@ -57,17 +57,6 @@ Public Class Form1
         mapOffsets = JsonConvert.DeserializeObject(Of Dictionary(Of String, Dictionary(Of String, OffsetEntry)))(configText)
     End Sub
 
-    Private Sub EnableControls(enabled As Boolean)
-        chkKillTriggers.Enabled = enabled
-        chkCrates.Enabled = enabled
-        chkSafeZones.Enabled = enabled
-        chkSoftCeilings.Enabled = enabled
-        chkDecals.Enabled = enabled
-        chkDecalPalette.Enabled = enabled
-        btnRemoveSelected.Enabled = enabled
-        btnLoadMap.Enabled = True
-    End Sub
-
     Private Sub LogMessage(msg As String)
         If DebugTxt IsNot Nothing Then
             DebugTxt.Text = msg
@@ -82,7 +71,6 @@ Public Class Form1
 
             If mapOpen.ShowDialog() = DialogResult.OK Then
                 selectedMapFilePath = mapOpen.FileName
-                EnableControls(True)
 
                 Dim fileNameWithoutExt As String = Path.GetFileNameWithoutExtension(selectedMapFilePath).ToLowerInvariant()
                 Dim friendlyName As String = "Unknown"

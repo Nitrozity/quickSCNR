@@ -593,7 +593,7 @@ Partial Class Form1
         Me.Controls.Add(Me.btnLoadMap)
         Me.Controls.Add(Me.FlowLayoutPanel2)
         Me.Controls.Add(Me.FlowLayoutPanel3)
-        Me.MinimizeBox = False
+        Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.ShowIcon = False
         Me.Text = "quickSCNR"
