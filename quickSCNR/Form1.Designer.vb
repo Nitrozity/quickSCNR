@@ -63,7 +63,6 @@ Partial Class Form1
         Me.chkSceneryPalette = New System.Windows.Forms.CheckBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.DebugTxt = New System.Windows.Forms.Label()
-        Me.cmbMaps = New System.Windows.Forms.ComboBox()
         Me.FlowLayoutPanel3 = New System.Windows.Forms.FlowLayoutPanel()
         Me.chkAtmosphere = New System.Windows.Forms.CheckBox()
         Me.chkCameraFXPalette = New System.Windows.Forms.CheckBox()
@@ -495,16 +494,6 @@ Partial Class Form1
         Me.DebugTxt.Size = New System.Drawing.Size(493, 13)
         Me.DebugTxt.TabIndex = 19
         '
-        'cmbMaps
-        '
-        Me.cmbMaps.FormattingEnabled = True
-        Me.cmbMaps.Items.AddRange(New Object() {"Assembly", "Avalanche", "Blackout", "Cold Storage", "Construct", "Epitaph", "Foundry", "Ghost Town", "Guardian", "Heretic", "High Ground", "Isolation", "Last Resort", "Longshore", "Narrows", "Orbital", "Rat's Nest", "Sandbox", "Sandtrap", "Snowbound"})
-        Me.cmbMaps.Location = New System.Drawing.Point(231, 13)
-        Me.cmbMaps.Name = "cmbMaps"
-        Me.cmbMaps.Size = New System.Drawing.Size(121, 21)
-        Me.cmbMaps.TabIndex = 11
-        Me.cmbMaps.Visible = False
-        '
         'FlowLayoutPanel3
         '
         Me.FlowLayoutPanel3.Controls.Add(Me.chkAtmosphere)
@@ -599,7 +588,6 @@ Partial Class Form1
         Me.Controls.Add(Me.DebugTxt)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.chkAll)
-        Me.Controls.Add(Me.cmbMaps)
         Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Controls.Add(Me.btnRemoveSelected)
         Me.Controls.Add(Me.btnLoadMap)
@@ -661,7 +649,6 @@ Partial Class Form1
     Friend WithEvents chkSceneryPalette As CheckBox
     Friend WithEvents Label1 As Label
     Friend WithEvents DebugTxt As Label
-    Friend WithEvents cmbMaps As ComboBox
     Friend WithEvents FlowLayoutPanel3 As FlowLayoutPanel
     Friend WithEvents chkAtmosphere As CheckBox
     Friend WithEvents chkCameraFXPalette As CheckBox
