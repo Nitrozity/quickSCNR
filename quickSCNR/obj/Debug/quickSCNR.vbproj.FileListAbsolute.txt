@@ -1,0 +1,15 @@
+C:\Users\Shane\source\repos\BSP\quickSCNR\bin\Debug\quickSCNR.exe.config
+C:\Users\Shane\source\repos\BSP\quickSCNR\bin\Debug\quickSCNR.exe
+C:\Users\Shane\source\repos\BSP\quickSCNR\bin\Debug\quickSCNR.pdb
+C:\Users\Shane\source\repos\BSP\quickSCNR\bin\Debug\quickSCNR.xml
+C:\Users\Shane\source\repos\BSP\quickSCNR\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Shane\source\repos\BSP\quickSCNR\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Shane\source\repos\BSP\quickSCNR\obj\Debug\quickSCNR.vbprojAssemblyReference.cache
+C:\Users\Shane\source\repos\BSP\quickSCNR\obj\Debug\quickSCNR.Form1.resources
+C:\Users\Shane\source\repos\BSP\quickSCNR\obj\Debug\quickSCNR.Resources.resources
+C:\Users\Shane\source\repos\BSP\quickSCNR\obj\Debug\quickSCNR.vbproj.GenerateResource.cache
+C:\Users\Shane\source\repos\BSP\quickSCNR\obj\Debug\quickSCNR.vbproj.CoreCompileInputs.cache
+C:\Users\Shane\source\repos\BSP\quickSCNR\obj\Debug\quickSCNR.vbproj.CopyComplete
+C:\Users\Shane\source\repos\BSP\quickSCNR\obj\Debug\quickSCNR.exe
+C:\Users\Shane\source\repos\BSP\quickSCNR\obj\Debug\quickSCNR.xml
+C:\Users\Shane\source\repos\BSP\quickSCNR\obj\Debug\quickSCNR.pdb
